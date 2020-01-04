@@ -75,16 +75,16 @@ The right inlet of the _Temperament Generator_ is reserved for use with `pcontro
 
 When in Live, the _Reference_, _Top_ & _Notes_ settings can be automated via the automation lanes.
 
--   Ref - _Reference_
--   Top - _Top_
--   Div - _Notes_
+-   Ref \- _Reference_
+-   Top \- _Top_
+-   Div \- _Notes_
 
 Automation can also be controlled using several global sends from within Max.
 
--   `s autoPRE` - to select presets
--   `s autoREF` - _Reference_
--   `s autoTOP` - _Top_
--   `s autoDIV` - _Notes_
+-   `s autoPRE` \- to select presets
+-   `s autoREF` \- _Reference_
+-   `s autoTOP` \- _Top_
+-   `s autoDIV` \- _Notes_
 
 It should be noted that automation functionality is limited, and both the sends and automation lanes will only effect the individual Temperament last changed/selected. For best results, reserve automation for use with only one temperament or switching between presets.
 
