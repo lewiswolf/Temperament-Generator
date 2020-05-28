@@ -92,4 +92,4 @@ Presets are global, and are stored in the parent folder. Updating presets whilst
 
 ## File I/O
 
-The _Temperament Generator_ is capable of loading scala tuning files (.scl) and can also export scala tuning files and spreadsheets (.csv). The exported scala file targets the currently selected temperament, transposed relative to 0 cents. The exported spreadsheet contains the complete mapping of the 128 MIDI note range. Any unused MIDI notes will not appear in the spreadsheet.
+The _Temperament Generator_ is capable of loading scala tuning files (.scl) and can also export scala tuning files, Anamark tuning files (.tun) and spreadsheets (.csv). The exported scala file targets the currently selected temperament, transposed relative to 0 cents. The exported spreadsheet contains the complete mapping of the 128 MIDI note range. Any unused MIDI notes will not appear in the spreadsheet.
