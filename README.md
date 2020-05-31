@@ -22,7 +22,7 @@ A user can create up to 10 simultaneous temperaments and map them onto a MIDI de
 -   **Scala**  
     for importing .scl files and typing out your own in the console. The syntax for this is documented [here](http://www.huygens-fokker.org/scala/scl_format.html).
 -   **Series**  
-    for parsing sequential equations, such as those that generate the harmonic series. The syntax for this mode is documented in the `bach.expr` helpfile contained within the _bach library_. `k` is used to represent the sequence of integers `1 <= k <= n` where `n` is the number of _Notes_ detailed in the table below .
+    for parsing sequential equations, such as those that generate the harmonic series. The syntax for this mode is documented in the `bach.expr` helpfile contained within the _bach library_. `k` is used to represent the sequence of integers `1 <= k <= n` where `n` is the number of _Notes_ detailed in the table below.
 
 When creating each temperament, information is entered into a table like the one shown here.
 
