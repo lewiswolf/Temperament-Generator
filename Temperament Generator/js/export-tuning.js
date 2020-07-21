@@ -26,7 +26,7 @@ ${description}
 ${scala.length}
 !
 ${scala.map((cents) => {
-        return `${cents} \n`
+        return `${cents.toFixed(Math.max(1, (cents.toString().split('.')[1] || []).length))} \n`
     }).join('')}! Created using the Temperament Generator by Lewis Wolf`, filepath)
 })
 
