@@ -4,8 +4,7 @@
 
 Written in Max MSP v.8+
 
-Dependencies: bach library v0.8.0b+  
-https://www.bachproject.net/dl/
+Dependencies: [bach library v0.8.0b+](https://www.bachproject.net/dl/)
 
 The _Temperament Generator_ was developed for real time implementations of microtonal tunings, for use in both compositional and performative settings. The patch works both as a standalone application, running in Max MSP, as well as in Max for Live, with only a small amount of user patching necessary.
 
