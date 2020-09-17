@@ -53,7 +53,7 @@ To help speed up the process of using the Temperament Generator with your own Ma
 -   **midibae**  
     This bpatcher is designed to work sympathetically with a `poly~`. The left outlet outputs MIDI notes (pitch and velocity), as well as `target` & `legacynotemode` messages for the `poly~`. These are controlled using _Ignore MIDI Channel/Target MIDI Channel_. _Target MIDI Channel_ targets `poly~` voices relative to the incoming MIDI channel, and is used to make sure pitch bend values are always paired with the correct MIDI note. When using _Target MIDI Channel_, it is recommended that your `poly~` have 16 voices - one for each MIDI channel. The middle outlet outputs 14bit MIDI pitch bend values. The right outlet outputs raw MIDI.
 
--   **mtof&c**  
+-   **pitchbend**  
     This works similarly to the `mtof` object in Max, but takes pitch bend values in the right inlet. Outputs frequency from the left outlet and cents from the right outlet. 0 cents = 440hz.
 
 _midibae_ and the _Temperament Generator_ both accept raw MIDI in the left inlet, as well as two messages.
