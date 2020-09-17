@@ -26,6 +26,7 @@ void ext_main(void *r) {
 	t_class *c;
 	c = class_new("pitchbend", (method)pitchbend_new, (method)NULL, sizeof(t_pitchbend), 0L, A_DEFLONG, 0);
 	class_addmethod(c, (method)pitchbend_assist, "assist", A_CANT, 0);
+	class_addmethod(c, (method)stdinletinfo, "inletinfo", A_CANT, 0);
 	class_addmethod(c, (method)pitchbend_bang, "bang", 0);
 	class_addmethod(c, (method)pitchbend_in0, "int", A_LONG, 0);
 	class_addmethod(c, (method)pitchbend_in1, "in1", A_LONG, 0);
