@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 100.0, 100.0, 640.0, 480.0 ],
+		"rect" : [ 100.0, 100.0, 662.0, 480.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,48 +40,13 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-5",
-					"maxclass" : "button",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 148.0, 283.0, 24.0, 24.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-4",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 425.0, 274.0, 50.0, 22.0 ],
-					"text" : "0."
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-1",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 198.0, 307.0, 32.0, 22.0 ],
-					"text" : "print"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"hidden" : 1,
 					"id" : "obj-36",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "int" ],
-					"patching_rect" : [ 405.0, 344.0, 32.0, 22.0 ],
+					"patching_rect" : [ 444.0, 344.0, 32.0, 22.0 ],
 					"text" : "t b 0"
 				}
 
@@ -94,7 +59,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 405.0, 313.0, 58.0, 22.0 ],
+					"patching_rect" : [ 444.0, 313.0, 58.0, 22.0 ],
 					"text" : "loadbang"
 				}
 
@@ -105,7 +70,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 304.0, 339.0, 37.0, 20.0 ],
+					"patching_rect" : [ 343.0, 341.0, 37.0, 20.0 ],
 					"text" : "cents"
 				}
 
@@ -116,7 +81,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 240.0, 339.0, 21.0, 20.0 ],
+					"patching_rect" : [ 279.0, 341.0, 21.0, 20.0 ],
 					"text" : "hz"
 				}
 
@@ -127,7 +92,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 304.0, 189.0, 126.0, 20.0 ],
+					"patching_rect" : [ 343.0, 189.0, 126.0, 20.0 ],
 					"text" : "14-bit MIDI pitch bend"
 				}
 
@@ -138,7 +103,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 139.0, 159.0, 95.0, 20.0 ],
+					"patching_rect" : [ 178.0, 217.0, 95.0, 20.0 ],
 					"text" : "MIDI pitch value"
 				}
 
@@ -150,7 +115,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 422.0, 217.0, 35.0, 22.0 ],
+					"patching_rect" : [ 461.0, 217.0, 35.0, 22.0 ],
 					"text" : "8191"
 				}
 
@@ -162,7 +127,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 379.0, 217.0, 39.0, 22.0 ],
+					"patching_rect" : [ 418.0, 217.0, 39.0, 22.0 ],
 					"text" : "-8191"
 				}
 
@@ -174,7 +139,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 342.0, 217.0, 35.0, 22.0 ],
+					"patching_rect" : [ 381.0, 217.0, 35.0, 22.0 ],
 					"text" : "4500"
 				}
 
@@ -188,7 +153,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 240.0, 309.25, 50.0, 22.0 ]
+					"patching_rect" : [ 279.0, 311.25, 50.0, 22.0 ]
 				}
 
 			}
@@ -201,7 +166,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 304.0, 309.5, 50.0, 22.0 ]
+					"patching_rect" : [ 343.0, 311.5, 50.0, 22.0 ]
 				}
 
 			}
@@ -212,7 +177,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 240.0, 159.0, 29.5, 22.0 ],
+					"patching_rect" : [ 279.0, 217.0, 29.5, 22.0 ],
 					"text" : "69"
 				}
 
@@ -224,7 +189,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 304.0, 217.0, 33.0, 22.0 ],
+					"patching_rect" : [ 343.0, 217.0, 33.0, 22.0 ],
 					"text" : "-100"
 				}
 
@@ -236,7 +201,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "float" ],
-					"patching_rect" : [ 240.0, 263.0, 61.0, 22.0 ],
+					"patching_rect" : [ 279.0, 264.125, 83.0, 22.0 ],
 					"text" : "pitchbend"
 				}
 
@@ -249,7 +214,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 11.0, 65.0, 617.0, 38.0 ],
+					"patching_rect" : [ 14.0, 65.0, 635.0, 38.0 ],
 					"text" : "pitchbend works similarly to the mtof object in Max, but also takes pitch bend values in the right inlet. Outputs frequency from the left outlet and cents/100 from the right outlet. 0 cents = 440hz."
 				}
 
@@ -266,7 +231,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 11.0, 11.0, 617.0, 52.0 ]
+					"patching_rect" : [ 14.0, 11.0, 635.0, 52.0 ]
 				}
 
 			}
@@ -288,7 +253,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-8", 1 ],
-					"midpoints" : [ 351.5, 250.5, 291.5, 250.5 ],
+					"midpoints" : [ 390.5, 250.5, 352.5, 250.5 ],
 					"source" : [ "obj-26", 0 ]
 				}
 
@@ -296,7 +261,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-8", 1 ],
-					"midpoints" : [ 388.5, 250.5, 291.5, 250.5 ],
+					"midpoints" : [ 427.5, 250.5, 352.5, 250.5 ],
 					"source" : [ "obj-27", 0 ]
 				}
 
@@ -304,7 +269,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-8", 1 ],
-					"midpoints" : [ 431.5, 250.5, 291.5, 250.5 ],
+					"midpoints" : [ 470.5, 250.5, 352.5, 250.5 ],
 					"source" : [ "obj-28", 0 ]
 				}
 
@@ -335,16 +300,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-1", 0 ],
-					"order" : 1,
-					"source" : [ "obj-8", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-23", 0 ],
-					"order" : 1,
 					"source" : [ "obj-8", 1 ]
 				}
 
@@ -352,23 +308,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-25", 0 ],
-					"order" : 0,
-					"source" : [ "obj-8", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-4", 1 ],
-					"order" : 0,
-					"source" : [ "obj-8", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-5", 0 ],
-					"order" : 2,
 					"source" : [ "obj-8", 0 ]
 				}
 
