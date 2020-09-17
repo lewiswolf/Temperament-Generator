@@ -87,7 +87,6 @@ void pitchbend_bang(t_pitchbend *x) {
     detune = ((((double)x->p_inlet1 + 8191.) / (8191. + 8191.)) * (1. + 1.)) -1;
     pb = ((double)x->p_inlet0 + detune) - 69.;
     hz = 440.0 * pow(2, (pb / 12.));
-	post("%.2f received in right inlet",detune);
 
     outlet_float(x->p_outlet1, pb);
     outlet_float(x->p_outlet0, hz);
