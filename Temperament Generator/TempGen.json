@@ -1,36 +1,27 @@
 {
-	"pattrstorage" : 	{
-		"name" : "TempGen",
-		"slots" : 		{
-			"1" : 			{
-				"id" : 1,
-				"data" : 				{
-					"patcher::patcher::structures" : [ 						{
-							"0" : [ "Type", "Reference", "Top", "Notes", "Multiplier" ],
-							"1" : [ "EQ", 440.0, 880.0, 12, 1 ]
+	"pattrstorage": {
+		"name": "TempGen",
+		"slots": {
+			"1": {
+				"id": 1,
+				"data": {
+					"patcher::patcher::structures": [
+						{
+							"0": ["Type", "Reference", "Top", "Notes", "Multiplier"],
+							"1": ["EQ", 440.0, 880.0, 12, 1]
 						}
- ],
-					"patcher::patcher[1]::scala" : [ 						{
-
-						}
- ],
-					"patcher::patcher[2]::series" : [ 						{
-
-						}
- ],
-					"multiplier/mapper::octavesize" : [ 12 ],
-					"multiplier/mapper::outputmax" : [ 12544.0 ],
-					"multiplier/mapper::outputmin" : [ 8.0 ],
-					"multiplier/mapper::overdubinsert" : [ 0 ],
-					"multiplier/mapper::refperlist" : [ 0 ],
-					"multiplier/mapper::transpose" : [ 69 ],
-					"multiplier/mapper::zeroreference" : [ 21 ]
+					],
+					"patcher::patcher[1]::scala": [{}],
+					"patcher::patcher[2]::series": [{}],
+					"multiplier/mapper::octavesize": [12],
+					"multiplier/mapper::outputmax": [12544.0],
+					"multiplier/mapper::outputmin": [8.0],
+					"multiplier/mapper::overdubinsert": [0],
+					"multiplier/mapper::refperlist": [0],
+					"multiplier/mapper::transpose": [69],
+					"multiplier/mapper::zeroreference": [21]
 				}
-
 			}
-
 		}
-
 	}
-
 }
