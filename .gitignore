@@ -1,8 +1,9 @@
 .DS_Store
 .vscode/
-unused/
+build/
 externals/build.rb
+externals/c74support
 externals/info.plist
 externals/maxmspsdk.xcconfig
-externals/c74support
-build/
+tutorial-video/
+unused/
