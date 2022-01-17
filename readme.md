@@ -8,18 +8,18 @@ Dependencies: [bach library v0.8.0b+](https://www.bachproject.net/dl/)
 
 The _Temperament Generator_ was developed for real time implementations of microtonal tunings, for use in both compositional and performative settings. The patch works both as a standalone application, running in Max MSP, as well as in Max for Live, with only a small amount of user patching necessary.
 
-A demonstration video for this project can be found [here](https://youtu.be/C4txE2hQ53w).
+There is also a [demonstration video](https://youtu.be/C4txE2hQ53w) for this project.
 
 ## Basic Use Guide
 
-The _Temperament Generator_ takes in raw MIDI and outputs MIDI with precise pitch bend values relative to the user defined mapping and temperament. The output can be formatted either as standard 14-bit pitch bend values, or as three CC messages primarily for use with Kontakt (for more information on using this patch with Kontakt, please see [here](https://github.com/lewiswolf/Polyphonic-Microtuning-in-Kontakt-with-Max-MSP)). Both outputs make use of all 16 MIDI channels to allow for notes to be independently tuned. By toggling _Fluid_ to on, the intonation of held notes can be changed immediately, however this is achieved by repeatedly resending the held MIDI message with the updated pitch bend values, and may cause unwanted interferance.
+The _Temperament Generator_ takes in raw MIDI and outputs MIDI with precise pitch bend values relative to the user defined mapping and temperament. The output can be formatted either as standard 14-bit pitch bend values, or as three CC messages primarily for use with Kontakt (for more information on using this patch with Kontakt, see [my dedicated repository](https://github.com/lewiswolf/Polyphonic-Microtuning-in-Kontakt-with-Max-MSP)). Both outputs make use of all 16 MIDI channels to allow for notes to be independently tuned. By toggling _Fluid_ to on, the intonation of held notes can be changed immediately, however this is achieved by repeatedly resending the held MIDI message with the updated pitch bend values, and may cause unwanted interferance.
 
 A user can create up to 10 simultaneous temperaments and map them onto a MIDI device. For each temperament, there are three basic modes available.
 
 -   **EQ**  
     for creating equally divided temperaments.
 -   **Scala**  
-    for importing .scl files and typing out your own in the console. The syntax for this is documented [here](http://www.huygens-fokker.org/scala/scl_format.html).
+    for importing .scl files and typing out your own in the console. The syntax for this is documented by [Scala file format specification](http://www.huygens-fokker.org/scala/scl_format.html).
 -   **Series**  
     for parsing sequential equations, such as those that generate the harmonic series. The syntax for this mode is documented in the `bach.expr` helpfile contained within the _bach library_. `k` is used to represent the sequence of integers `1 <= k <= n` where `n` is the number of _Notes_ detailed in the table below.
 

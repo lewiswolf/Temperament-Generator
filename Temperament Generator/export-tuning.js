@@ -1,11 +1,11 @@
-const max = require('max-api');
-const fs = require('fs');
+const max = require('max-api')
+const fs = require('fs')
 const path = require('path')
 
 function writeFile(file, filepath) {
 	fs.writeFile(filepath, file, (err) => {
-		err ? max.post(err) : max.post('The file has been saved!');
-	});
+		err ? max.post(err) : max.post('The file has been saved!')
+	})
 }
 
 max.addHandler('export-csv', (filepath, ...temperament) => {
@@ -18,8 +18,8 @@ ${temperament.map((cents, i) => {
 max.addHandler('export-scl', (filepath, description, ...structure) => {
 	let scala = structure.splice(3).map((cents) => {
 		return (cents * 100) - (1200 * Math.log2(structure[0] / 440))
-	});
-	scala.push(1200 * Math.log2(structure[1] / 440));
+	})
+	scala.push(1200 * Math.log2(structure[1] / 440))
 	writeFile(`! ${path.basename(filepath)}
 !
 ${description}
